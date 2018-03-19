@@ -2,7 +2,7 @@
 
 KindEditor编辑器的vue模块化
 
-未完成……敬请期待
+![效果](/examples/assets/editorImg.png "Title")
 
 ## Install
 `npm install vue-kindeditor --save`
@@ -38,6 +38,7 @@ export default {
   },
   mounted() {
 	let that = this;
+    // KindEditor的初始化参数，和方法参照其官网哦
     this.$refs.editor.initEditor({
       afterCreate() {
         // 这里的this，是editor了
@@ -48,3 +49,5 @@ export default {
 }
 </script>
 ```
+## KindEditor官网
+[http://kindeditor.net/demo.php](http://kindeditor.net/demo.php)
