@@ -10,7 +10,7 @@
 <script>
 
 import Editor from 'vue-kindeditor';
-import './../simple.css';
+import './../../css/simple.css';
 export default {
   components: {
     Editor,
