@@ -8,7 +8,7 @@ KindEditor编辑器的vue模块化
 `npm install vue-kindeditor --save`
 
 ## Usage
-`
+```
 <template>
 <div class="hello">
   <h1>kindEditor 例子</h1>
@@ -47,4 +47,4 @@ export default {
   }
 }
 </script>
-`
+```
